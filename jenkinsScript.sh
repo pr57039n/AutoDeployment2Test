@@ -19,4 +19,5 @@ sudo mkdir Repositories
 cd Repositories
 git clone https://https://github.com/pr57039n/AutoDeployment2Test.git
 cd ./AutoDeployment2Test
-awsScript.sh
+sudo chmod 755 awsScript.sh
+sudo ./awsScript.sh
