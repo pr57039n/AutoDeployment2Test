@@ -11,7 +11,7 @@ echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] https://pkg.jenkins
 sudo apt-get update
 sudo apt-get -y install jenkins
 sudo systemctl start jenkins
-sudo apt-get install python3pip -y &&  sudo apt-get install python3.10-venv -y
+sudo apt-get install python3-pip -y && sudo apt-get install python3.10-venv -y
 sudo apt-get install git -y
 cd /
 sudo mkdir Repositories
